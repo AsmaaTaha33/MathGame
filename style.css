@@ -1,0 +1,164 @@
+html{
+    
+    background:radial-gradient(circle,#ffff,grey);
+    
+}
+.container{
+    height: 520;
+    width: 600;
+    background-color: #9DD2EA;
+   margin: auto;
+   margin-top: 70;
+   border-radius: 1.5ch;
+  box-shadow:0px 5px 0px 0px #009de4
+}
+
+#score{
+    height: 50px;
+    width: 80px;
+background-color: #F1FF92;
+
+float: right;
+margin:20px 20px;
+box-shadow:0px 5px 0px 0px #888E5F;
+color: #888E5F;
+text-align: center;
+line-height: 50px;
+font-weight: bold;
+
+}
+#first{
+    height: 170px;
+    width: 450;
+    background-color:#9DA0ED;
+    float: left;
+    margin: -8px 80px;
+    box-shadow:0px 5px 0px 0px #535aa8;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  
+    
+}
+.second{
+    height:70px;
+    width: 450px;
+    background-color: #B481D9;
+    float: left;
+    margin: 17px 80px;
+    box-shadow:0px 5px 0px 0px #8153A8;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+   
+
+    
+    
+}
+#options{
+    height: 120px;
+    width: 500px;
+    margin: -5px 80px;
+   
+}
+.box{
+    height: 90px;
+    width: 90px;
+    margin-right: 30px;
+    background-color: white;
+    float: left;
+    border-radius: .5ch;
+    box-shadow:0px 5px 0px 0px rgba(0, 0,0, .2);
+    position: relative;
+    transition: all 2s;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 85px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+   
+}
+.box:hover,#start:hover{
+    background-color: #9C89F6;
+    color: white;
+    box-shadow: 0px 5px 0px 0px #6b54d3;
+}
+.box:active,#start:active{
+    box-shadow: 0px 0px 0px 0px #6b54d3;
+    background-color: #9C89F6;
+    color: white;
+    top: 5px;
+}
+#correct{
+    
+    background-color: green;
+    float: right;
+margin:20px 130px;
+color: white;
+text-align: center;
+padding:15;
+display:none
+}
+#tryagain{
+    
+    background-color: red;
+    margin:19px -9px;
+    float: right;
+color: white;
+text-align: center;
+padding:15;
+display: none;
+}
+#start{
+    height: 45px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, .5);
+    float: left;
+    margin: 20 250;
+    border-radius: .5ch;
+    box-shadow:0px 5px 0px 0px rgba(0, 0,0, .2);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    transition: all 2s;
+}
+#timer{
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    background-color: rgba(181, 235, 36, .8);
+    margin:346 380;
+    text-align: center;
+    line-height: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    box-shadow:0px 5px 0px 0px rgba(0, 0,0, .2);
+    display: none;
+}
+#gameover{
+    height: 200;
+    width: 500;
+    margin-left: 52px;
+    
+    background: linear-gradient(#f3ca68,#f3706c);
+   
+    position: absolute;
+    color:white;
+    font-size: 39px;
+    text-align: center;
+    line-height: 10px;
+    z-index: 2;
+    display: none;
+    
+   
+    
+}
